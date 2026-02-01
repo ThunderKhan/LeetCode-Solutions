@@ -1,0 +1,1 @@
+def smallerNumbersThanCurrent(nums: list[int]) -> list[int]:
