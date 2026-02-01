@@ -7,12 +7,14 @@ It serves as a record of my problem-solving journey and a reference for learning
 
 ## 🗂 Repository Structure
 
+```text
 LeetCode-Solutions/
 ├─ Python/   # Solutions written in Python
 ├─ Java/     # Solutions written in Java
 ├─ C++/      # Solutions written in C++
 ├─ C/        # Solutions written in C
 └─ README.md # Project overview
+```
 
 
 - Each subfolder contains files named by the problem number and title.
