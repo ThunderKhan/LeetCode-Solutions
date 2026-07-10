@@ -1,0 +1,338 @@
+# =====================================================
+# Universal .gitignore
+# Covers Python, C, C++, Java, JavaScript, TypeScript,
+# Rust, Go, C#, Swift, Kotlin, IDEs, OS files, and more.
+# =====================================================
+
+########################
+# Operating System
+########################
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+########################
+# Logs
+########################
+
+*.log
+logs/
+*.out
+*.err
+*.pid
+*.pid.lock
+
+########################
+# Temporary Files
+########################
+
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+########################
+# Environment Variables
+########################
+
+.env
+.env.*
+!.env.example
+
+########################
+# Archives
+########################
+
+*.zip
+*.tar
+*.gz
+*.tgz
+*.7z
+*.rar
+*.xz
+
+########################
+# Python
+########################
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.so
+
+.Python
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+
+*.egg-info/
+.installed.cfg
+*.egg
+
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+
+.coverage
+.coverage.*
+htmlcov/
+
+.venv/
+venv/
+ENV/
+env/
+
+.ipynb_checkpoints/
+
+########################
+# Java
+########################
+
+*.class
+*.jar
+*.war
+*.ear
+
+.gradle/
+build/
+out/
+target/
+
+########################
+# Kotlin
+########################
+
+.kotlin/
+
+########################
+# Maven
+########################
+
+.mvn/timing.properties
+
+########################
+# C / C++
+########################
+
+*.o
+*.obj
+*.a
+*.la
+*.lo
+*.lai
+*.slo
+
+*.so
+*.so.*
+*.dll
+*.dylib
+
+*.exe
+*.out
+*.app
+
+*.gch
+*.pch
+
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+compile_commands.json
+Makefile
+makefile
+GNUmakefile
+
+########################
+# Rust
+########################
+
+target/
+
+########################
+# Go
+########################
+
+bin/
+pkg/
+*.test
+coverage.out
+
+########################
+# Node.js / JavaScript
+########################
+
+node_modules/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+.parcel-cache/
+.next/
+.nuxt/
+.svelte-kit/
+dist/
+coverage/
+
+########################
+# TypeScript
+########################
+
+*.tsbuildinfo
+
+########################
+# PHP / Composer
+########################
+
+vendor/
+
+########################
+# Ruby
+########################
+
+.bundle/
+vendor/bundle/
+
+########################
+# .NET / C#
+########################
+
+bin/
+obj/
+
+*.user
+*.rsuser
+*.suo
+
+########################
+# Swift / Xcode
+########################
+
+DerivedData/
+.build/
+
+*.xcworkspace/
+xcuserdata/
+
+########################
+# Android
+########################
+
+.local.properties
+.cxx/
+
+########################
+# Flutter
+########################
+
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+########################
+# Terraform
+########################
+
+.terraform/
+*.tfstate
+*.tfstate.*
+
+########################
+# Docker
+########################
+
+.docker/
+
+########################
+# VS Code
+########################
+
+.vscode/
+
+########################
+# JetBrains IDEs
+########################
+
+.idea/
+
+########################
+# Visual Studio
+########################
+
+.vs/
+
+########################
+# Eclipse
+########################
+
+.project
+.classpath
+.settings/
+
+########################
+# NetBeans
+########################
+
+nbproject/private/
+
+########################
+# Cache
+########################
+
+.cache/
+.cache-loader/
+.eslintcache
+
+########################
+# Coverage
+########################
+
+coverage/
+.coverage
+lcov.info
+
+########################
+# Misc
+########################
+
+*.orig
+*.rej
+
+########################
+# Optional
+########################
+# Uncomment if you never want these in Git.
+
+# Cargo.lock
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
