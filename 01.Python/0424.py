@@ -13,8 +13,7 @@ class Solution:
             freq[idx] += 1
             maxFreq = max(maxFreq, freq[idx])
 
-            diff = (right - left + 1) - maxFreq
-            while diff > k:
+            while (right - left + 1) - maxFreq> k:
                 idxL = ord(s[left]) - ord('A')
                 freq[idxL] -= 1
                 left += 1
