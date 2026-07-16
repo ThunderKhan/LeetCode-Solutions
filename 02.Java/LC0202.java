@@ -23,7 +23,7 @@ class Solution {
         return sumOfSquares;
     }
 
-    boolean isHappy(int n) {
+    public boolean isHappy(int n) {
         if (n == 1) {
             return true;
         }
