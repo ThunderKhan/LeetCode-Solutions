@@ -3,12 +3,12 @@ public class LC0053 {
         Solution sol = new Solution();
 
         int nums[] = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
-        System.err.println(sol.bestSubArray(nums));
+        System.err.println(sol.maxSubArray(nums));
     }
 }
 
 class Solution {
-    public int bestSubArray(int[] nums) {
+    public int maxSubArray(int[] nums) {
         int bestLocalSum = nums[0];
         int bestGlobalSum = nums[0];
 
