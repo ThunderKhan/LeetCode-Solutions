@@ -5,8 +5,8 @@ class Solution:
         localSum = nums[0]
         globalBestSum = nums[0]
 
-        for x in nums:
-            localSum = max(x, x + localSum)
+        for num in nums:
+            localSum = max(num, num + localSum)
             globalBestSum = max(globalBestSum, localSum)
         
         return globalBestSum
