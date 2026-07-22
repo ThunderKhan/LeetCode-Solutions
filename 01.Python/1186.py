@@ -3,7 +3,7 @@ from typing import List
 class Solution:
     def maximumSum(self, arr: List[int]) -> int:
         noDelSum = arr[0]
-        oneDelSum = float('-inf')
+        oneDelSum = -10_000
         result = arr[0]
 
         for i in range(1, len(arr)):
@@ -12,7 +12,7 @@ class Solution:
             noDelSum = max(arr[i], arr[i] + noDelSum)
             oneDelSum = max(prevNoDel, arr[i] + oneDelSum)
 
-            result = max(noDelSum, oneDelSum)
+            result = max(result, noDelSum, oneDelSum)
         
         return result
 
