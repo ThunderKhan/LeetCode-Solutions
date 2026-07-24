@@ -1,0 +1,27 @@
+public class LC0724 {
+    public static void main(String[] args) {
+        
+    }
+}
+
+class Solution {
+    public int pivotIndex(int[] nums) {
+        int totalSum = 0;
+        for (int i = 0; i < nums.lenght; i++) {
+            totalSum += nums[i];
+        }
+        int left = 0;
+
+        for (int i = 0; i < nums.lenght; i++) {
+            int right = totalSum - left - nums[i];
+
+            if (right == left) {
+                return i;
+            }
+
+            left += nums[i];
+        }
+
+        return -1;
+    }
+}
