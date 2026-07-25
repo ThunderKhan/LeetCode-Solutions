@@ -1,0 +1,24 @@
+class Solution:
+    def maxProduct(self, n: int) -> int:
+        max1 = float('-inf')
+        max2 = float('-inf')
+
+        while n:
+            digit = n % 10
+
+            if digit > max1:
+                max2 = max1
+                max1 = digit
+            elif digit > max2:
+                max2 = digit
+
+            n //= 10
+
+        return max1 * max2
+
+sol = Solution()
+
+n = 124
+result = sol.maxProduct(n)
+
+print(result)
