@@ -15,7 +15,8 @@ public class LC0525 {
 class Solution {
     int findMaxLength(int[] nums) {
         HashMap<Integer, Integer> map = new HashMap<>();
-
+        map.put(0, -1);
+        
         int maxLen = 0;
         int runningSum = 0;
 
